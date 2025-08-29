@@ -1,8 +1,15 @@
-# app.py
-# PHPAiModel-GRU — GPU Trainer (Flask + SSE)
-# - Character-level GRU, веса совместимы с aicore.php (Wz, Wr, Wh, Wy, bz, br, bh, by)
-# - UI (/) и SSE-тренировка (/train)
-# - GPU через CuPy (авто-фоллбек на NumPy)
+# Pyton-Generator-PHPAiModel-GRU — app.py
+# Flask-based server for training a character-level GRU model with GPU/CPU support.
+#
+# Developed by: Artur Strazewicz — concept, architecture, Python GRU training, UI.
+# Year: 2025. License: MIT.
+#
+# Links:
+#   GitHub:      https://github.com/iStark/Pyton-Generator-PHPAiModel-GRU
+#   LinkedIn:    https://www.linkedin.com/in/arthur-stark/
+#   TruthSocial: https://truthsocial.com/@strazewicz
+#   X (Twitter): https://x.com/strazewicz
+
 
 import os, json, time, math, unicodedata
 from datetime import datetime
